@@ -212,6 +212,10 @@ input::placeholder {
       // min-width: 255px;
       text-align: center;
       padding: 25px 30px;
+      transition: transform 0.2s ease-in;
+      &:hover {
+        transform: translateY(-5px);
+      }
       img {
         max-width: 125px;
 
@@ -269,6 +273,11 @@ input::placeholder {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      transition: transform 0.2s ease-in;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
       &-title {
         font-weight: bold;
         font-size: 18px;

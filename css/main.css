@@ -200,7 +200,14 @@ input::placeholder {
     .products .product-cards-item {
       background: #ffffff;
       text-align: center;
-      padding: 25px 30px; }
+      padding: 25px 30px;
+      -webkit-transition: -webkit-transform 0.2s ease-in;
+      transition: -webkit-transform 0.2s ease-in;
+      transition: transform 0.2s ease-in;
+      transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in; }
+      .products .product-cards-item:hover {
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px); }
       .products .product-cards-item img {
         max-width: 125px;
         margin-bottom: 10px; }
@@ -253,7 +260,14 @@ input::placeholder {
               justify-content: space-between;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      -webkit-transition: -webkit-transform 0.2s ease-in;
+      transition: -webkit-transform 0.2s ease-in;
+      transition: transform 0.2s ease-in;
+      transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in; }
+      .merits .merits__inner .merits__card:hover {
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px); }
       .merits .merits__inner .merits__card-title {
         font-weight: bold;
         font-size: 18px;
